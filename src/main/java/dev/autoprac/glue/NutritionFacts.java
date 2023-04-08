@@ -13,8 +13,8 @@ public class NutritionFacts {
     private final int carbohydrate;
 
     public static class Builder{
-        private int servings;
-        private int servingSize;
+        private final int servings;
+        private final int servingSize;
 
         private int sodium = 0;
         private int calories = 0;
